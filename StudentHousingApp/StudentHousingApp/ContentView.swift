@@ -18,19 +18,29 @@ struct ContentView: View {
                 .tabItem {
                     VStack {
                         Image("first")
-                        Text("First")
+                        Text("Home")
                     }
                 }
                 .tag(0)
-            Text("Second View")
+            Text("Second View!")
                 .font(.title)
                 .tabItem {
                     VStack {
                         Image("second")
-                        Text("Second")
+                        Text("Favorites")
                     }
                 }
                 .tag(1)
+            Text("Third View!")
+            .font(.title)
+            .tabItem {
+                VStack {
+                    Image("first")
+                    Text("Profile")
+                    }
+                }
+                .tag(2)
+            
         }
     }
 }

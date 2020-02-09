@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		13295CFC23E8EDAB00459E04 /* LoginScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13295CFB23E8EDAB00459E04 /* LoginScreen.xib */; };
+		133B3D1A23F0611D004A946A /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133B3D1923F0611D004A946A /* LoginScreen.swift */; };
+		133B3D2023F06981004A946A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 133B3D1F23F06981004A946A /* Main.storyboard */; };
 		13C3028B23E8CA700066D656 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C3028A23E8CA700066D656 /* AppDelegate.swift */; };
 		13C3028D23E8CA700066D656 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C3028C23E8CA700066D656 /* SceneDelegate.swift */; };
 		13C3028F23E8CA700066D656 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C3028E23E8CA700066D656 /* ContentView.swift */; };
@@ -18,6 +20,8 @@
 
 /* Begin PBXFileReference section */
 		13295CFB23E8EDAB00459E04 /* LoginScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginScreen.xib; sourceTree = "<group>"; };
+		133B3D1923F0611D004A946A /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
+		133B3D1F23F06981004A946A /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		13C3028723E8CA700066D656 /* StudentHousingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudentHousingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13C3028A23E8CA700066D656 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		13C3028C23E8CA700066D656 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +70,8 @@
 				13C3029823E8CA740066D656 /* Info.plist */,
 				13C3029223E8CA740066D656 /* Preview Content */,
 				13295CFB23E8EDAB00459E04 /* LoginScreen.xib */,
+				133B3D1F23F06981004A946A /* Main.storyboard */,
+				133B3D1923F0611D004A946A /* LoginScreen.swift */,
 			);
 			path = StudentHousingApp;
 			sourceTree = "<group>";
@@ -137,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13C3029723E8CA740066D656 /* LaunchScreen.storyboard in Resources */,
+				133B3D2023F06981004A946A /* Main.storyboard in Resources */,
 				13295CFC23E8EDAB00459E04 /* LoginScreen.xib in Resources */,
 				13C3029423E8CA740066D656 /* Preview Assets.xcassets in Resources */,
 				13C3029123E8CA740066D656 /* Assets.xcassets in Resources */,
@@ -151,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13C3028B23E8CA700066D656 /* AppDelegate.swift in Sources */,
+				133B3D1A23F0611D004A946A /* LoginScreen.swift in Sources */,
 				13C3028D23E8CA700066D656 /* SceneDelegate.swift in Sources */,
 				13C3028F23E8CA700066D656 /* ContentView.swift in Sources */,
 			);

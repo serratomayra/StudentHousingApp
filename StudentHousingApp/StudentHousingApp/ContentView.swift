@@ -18,7 +18,7 @@ struct ContentView: View {
                 .multilineTextAlignment(.center)
                 .tabItem {
                     VStack {
-                        Image("first")
+                        Image("homeLogo")
                         Text("Home")
                     }
                 }
@@ -27,7 +27,7 @@ struct ContentView: View {
                 .font(.title)
                 .tabItem {
                     VStack {
-                        Image("second")
+                        Image("favoriteLogo")
                         Text("Favorites")
                     }
                 }
@@ -36,7 +36,7 @@ struct ContentView: View {
             .font(.title)
             .tabItem {
                 VStack {
-                    Image("first")
+                    Image("profileLogo")
                     Text("Profile")
                     }
                 }

@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		13295CFC23E8EDAB00459E04 /* LoginScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13295CFB23E8EDAB00459E04 /* LoginScreen.xib */; };
 		133B3D1A23F0611D004A946A /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133B3D1923F0611D004A946A /* LoginScreen.swift */; };
+		137058F62405E31200D776DB /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137058F52405E31200D776DB /* HomePage.swift */; };
+		137058F82405E3BF00D776DB /* FavoritesPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137058F72405E3BF00D776DB /* FavoritesPage.swift */; };
+		137058FA2405E3CA00D776DB /* ProfilePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137058F92405E3CA00D776DB /* ProfilePage.swift */; };
 		13C3028B23E8CA700066D656 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C3028A23E8CA700066D656 /* AppDelegate.swift */; };
 		13C3028D23E8CA700066D656 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C3028C23E8CA700066D656 /* SceneDelegate.swift */; };
 		13C3028F23E8CA700066D656 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C3028E23E8CA700066D656 /* ContentView.swift */; };
@@ -20,6 +23,9 @@
 /* Begin PBXFileReference section */
 		13295CFB23E8EDAB00459E04 /* LoginScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginScreen.xib; sourceTree = "<group>"; };
 		133B3D1923F0611D004A946A /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
+		137058F52405E31200D776DB /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		137058F72405E3BF00D776DB /* FavoritesPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesPage.swift; sourceTree = "<group>"; };
+		137058F92405E3CA00D776DB /* ProfilePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePage.swift; sourceTree = "<group>"; };
 		13C3028723E8CA700066D656 /* StudentHousingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudentHousingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13C3028A23E8CA700066D656 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		13C3028C23E8CA700066D656 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -41,6 +47,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		137058F42405E2E300D776DB /* TabViews */ = {
+			isa = PBXGroup;
+			children = (
+				137058F52405E31200D776DB /* HomePage.swift */,
+				137058F72405E3BF00D776DB /* FavoritesPage.swift */,
+				137058F92405E3CA00D776DB /* ProfilePage.swift */,
+			);
+			path = TabViews;
+			sourceTree = "<group>";
+		};
 		13C3027E23E8CA700066D656 = {
 			isa = PBXGroup;
 			children = (
@@ -60,6 +76,7 @@
 		13C3028923E8CA700066D656 /* StudentHousingApp */ = {
 			isa = PBXGroup;
 			children = (
+				137058F42405E2E300D776DB /* TabViews */,
 				13C3028A23E8CA700066D656 /* AppDelegate.swift */,
 				13C3028C23E8CA700066D656 /* SceneDelegate.swift */,
 				13C3028E23E8CA700066D656 /* ContentView.swift */,
@@ -153,7 +170,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				137058F82405E3BF00D776DB /* FavoritesPage.swift in Sources */,
+				137058F62405E31200D776DB /* HomePage.swift in Sources */,
 				13C3028B23E8CA700066D656 /* AppDelegate.swift in Sources */,
+				137058FA2405E3CA00D776DB /* ProfilePage.swift in Sources */,
 				133B3D1A23F0611D004A946A /* LoginScreen.swift in Sources */,
 				13C3028D23E8CA700066D656 /* SceneDelegate.swift in Sources */,
 				13C3028F23E8CA700066D656 /* ContentView.swift in Sources */,

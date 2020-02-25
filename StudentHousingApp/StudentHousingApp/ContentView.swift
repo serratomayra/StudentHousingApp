@@ -13,7 +13,7 @@ struct ContentView: View {
  
     var body: some View {
         TabView(selection: $selection){
-            Text("First View!")
+            HomePage()
                 .font(.title)
                 .multilineTextAlignment(.center)
                 .tabItem {
@@ -23,7 +23,7 @@ struct ContentView: View {
                     }
                 }
                 .tag(0)
-            Text("Second View!")
+            FavoritesPage()
                 .font(.title)
                 .tabItem {
                     VStack {
@@ -32,7 +32,7 @@ struct ContentView: View {
                     }
                 }
                 .tag(1)
-            Text("Third View!")
+            ProfilePage()
             .font(.title)
             .tabItem {
                 VStack {

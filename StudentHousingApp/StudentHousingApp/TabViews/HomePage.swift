@@ -11,5 +11,8 @@ import SwiftUI
 struct HomePage: View {
     var body: some View {
         Text("hi this is your HOME page!")
+  
     }
 }
+
+

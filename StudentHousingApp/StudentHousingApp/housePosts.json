@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1001,
+        "name":"Bridges Apartments",
+        "imageName":"Bridges",
+        "description":"Bridges Apartment Homes is a young and fresh urban apartment community in Salt Lake City, UT that’s as modern and chic as the city itself. Located near well-loved landmarks such as the Historic Hotel Utah, and epic restaurants offering the city’s famous Crown Burgers and Lion House Rolls, Bridges Apartment Homes is the perfect place to rest and rejuvenate after working and exploring the limitless sights, sounds, and flavors that Salt Lake City has to offer.",
+        "category":"Apartment"
+    },
+    {
+        "id": 1002,
+        "name":"644 City Station",
+        "imageName":"644",
+        "description":"At 644 City Station, an upscale apartment community in the heart of downtown Salt Lake City, Utah, you’ll find a home that fits your urban life. Our handsome high-rise apartments offer one, two, and three bedroom floor plans, so you can find the one that fits your style.",
+        "category":"Apartment"
+    },
+    {
+        "id": 1003,
+        "name":"The Seasons Apartments",
+        "imageName":"Seasons",
+        "description":"Seasons on City Creek offers beautiful, yet affordable apartments for rent in Salt Lake City, UT. These apartments are perfectly placed right in the center of SLC, making your doorstep within a block of Temple Square, Abravanel Hall, Vivint Smart Home Arena, Trax Lines and City Creek Shopping Center. Our luxury apartments for rent offer high-quality lifestyle at an affordable price.",
+        "category":"House"
+    }
+]

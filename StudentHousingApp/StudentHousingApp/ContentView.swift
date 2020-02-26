@@ -21,7 +21,8 @@ struct ContentView: View {
     var body: some View {
         TabView(selection: $selection) {
             NavigationView {
-                List (categories.keys.sorted(), id: \String.self) {key in
+                List (categories.keys.sorted(), id: \String.self) {
+                    key in
                     HomePage(categoryName: "\(key) Post".uppercased(), housePosts: self.categories[key]!)
                         .frame(height: 320)
                     .padding(.top)

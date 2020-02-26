@@ -32,7 +32,6 @@ struct HomePage_Detail : View {
                             .padding(.bottom)
                             Spacer()
                         }
-                
                     }
             .listRowInsets(EdgeInsets())
             VStack(alignment: .leading) {
@@ -50,14 +49,11 @@ struct HomePage_Detail : View {
                 
             }.padding(.top)
             .padding(.bottom)
-            
         }
             .edgesIgnoringSafeArea(.top)
             .navigationBarHidden(true)
-        
     }
 }
-
 
 struct FavoriteButton : View {
     var body: some View {
@@ -70,9 +66,6 @@ struct FavoriteButton : View {
         .cornerRadius(10)
     }
 }
-
-
-
 
 #if DEBUG
 struct HomePage_Detail_Previews : PreviewProvider {

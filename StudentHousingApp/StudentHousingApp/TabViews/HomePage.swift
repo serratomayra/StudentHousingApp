@@ -8,11 +8,37 @@
 
 import SwiftUI
 
-struct HomePage: View {
+struct HomePage : View {
+    
+    var categoryName:String
+    var housePosts:[housePost]
+    
     var body: some View {
-        Text("hi this is your HOME page!")
-  
+        VStack(alignment: .leading) {
+            Text(self.categoryName)
+            .font(.title)
+            ScrollView(.vertical, showsIndicators: false) {
+                VStack(alignment: .leading) {
+                    ForEach(self.housePosts, id: \.name) {
+                        post in
+                        NavigationLink(destination: HomePage_Post(post: post))
+                        {
+                        HomePage_Post(post: post)
+                            .frame(width: CGFloat(300))
+                            .padding(.trailing, CGFloat(30))
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 
+#if DEBUG
+struct HomePage_Previews : PreviewProvider {
+    static var previews: some View {
+        HomePage(categoryName: "APARTMENTS", housePosts: houseData)
+    }
+}
+#endif
 

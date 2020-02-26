@@ -11,9 +11,24 @@ import SwiftUI
 struct ContentView: View {
     @State private var selection = 0
  
+    var categories:[String:[housePost]] {
+        .init(
+            grouping: houseData,
+            by:{$0.category.rawValue}
+        )
+    }
+    
     var body: some View {
-        TabView(selection: $selection){
-            HomePage()
+        TabView(selection: $selection) {
+            NavigationView {
+                List (categories.keys.sorted(), id: \String.self) {key in
+                    HomePage(categoryName: "\(key) Post".uppercased(), housePosts: self.categories[key]!)
+                        .frame(height: 320)
+                    .padding(.top)
+                    .padding(.bottom)
+                }
+                .navigationBarTitle(Text("Student Housing"))
+            }
                 .font(.title)
                 .multilineTextAlignment(.center)
                 .tabItem {
